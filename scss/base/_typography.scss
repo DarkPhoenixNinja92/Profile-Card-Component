@@ -6,6 +6,7 @@ body {
 .attribution {
     font-size: 11px;
     text-align: center;
+    padding-bottom: 3rem;
 }
 
 .attribution a {
@@ -14,25 +15,25 @@ body {
 
 .name {
     color: #2E3349;
-    font-size: 18px;
+    font-size: $fontLrg;
 }
 
 .age {
     color: #6B7082;
-    font-size: 18px;
+    font-size: $fontLrg;
 }
 
 .location {
-    font-size: 14px;
+    font-size: $fontMed;
 }
 
 .stat {
     color: #2E3349;
-    font-size: 18px;
+    font-size: $fontLrg;
 }
 
 .stat-title,
 .location {
     color: #6B7082;
-    font-size: 14px;
+    font-size: 10px;
 }

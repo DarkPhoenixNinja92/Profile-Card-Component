@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 body {
   background-color: #19a2ae;
-  padding: 2rem;
+  padding: 0;
 }
 
 .container {
@@ -42,7 +42,8 @@ body {
 .container .stat-div .stat-div-b,
 .container .stat-div .stat-div-c {
   flex-direction: column;
-  padding-right: 10px;
+  padding-right: 40px;
+  text-align: center;
 }
 
 body {
@@ -52,6 +53,7 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding-bottom: 3rem;
 }
 
 .attribution a {
@@ -80,7 +82,7 @@ body {
 .stat-title,
 .location {
   color: #6B7082;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .profile-pic {
@@ -89,4 +91,23 @@ body {
   position: relative;
   left: 7rem;
   bottom: 3.4rem;
+}
+
+@media (min-width: 1440px) {
+  body {
+    padding: 30rem;
+  }
+  body .container {
+    position: relative;
+    bottom: 30rem;
+  }
+
+  .profile-pic {
+    left: 11rem;
+  }
+
+  .stat-title {
+    position: relative;
+    bottom: 1rem;
+  }
 }/*# sourceMappingURL=styles.css.map */

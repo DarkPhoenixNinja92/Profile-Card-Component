@@ -1,0 +1,16 @@
+@media #{$brkDesktop} {
+    body {
+        padding: 30rem;
+        .container {
+            position: relative;
+            bottom: 30rem;
+        }
+    }
+    .profile-pic {
+        left: 11rem;
+    }
+    .stat-title {
+        position: relative;
+        bottom: 1rem;
+    }
+}
