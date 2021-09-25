@@ -1,0 +1,81 @@
+body {
+  background-color: #19a2ae;
+}
+
+.container {
+  background-color: white;
+  border-radius: 15px 15px;
+}
+.container .pattern {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0;
+}
+.container .detail-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container .detail-div .name {
+  margin-right: 0.4rem;
+}
+.container .location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .stat-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container .stat-div .stat-div-a,
+.container .stat-div .stat-div-b,
+.container .stat-div .stat-div-c {
+  flex-direction: column;
+  padding-right: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.name {
+  color: #2E3349;
+  font-size: 18px;
+}
+
+.age {
+  color: #6B7082;
+  font-size: 18px;
+}
+
+.location {
+  font-size: 14px;
+}
+
+.stat {
+  color: #2E3349;
+  font-size: 18px;
+}
+
+.stat-title,
+.location {
+  color: #6B7082;
+  font-size: 10px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  border: 5px solid white;
+  position: relative;
+  left: 7rem;
+  bottom: 3.4rem;
+}/*# sourceMappingURL=styles.css.map */

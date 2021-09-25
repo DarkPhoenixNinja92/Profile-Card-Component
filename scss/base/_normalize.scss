@@ -1,0 +1,39 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+}
+
+.container {
+    background-color: white;
+    border-radius: 15px 15px;
+    .pattern {
+        width: 100%;
+        height: auto;
+        border-radius: 15px 15px 0 0;
+    }
+    .detail-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .name {
+            margin-right: 0.4rem;
+        }
+    }
+    .location {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .stat-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .stat-div-a,
+        .stat-div-b,
+        .stat-div-c {
+            flex-direction: column;
+            padding-right: 10px;
+        }
+    }
+}
