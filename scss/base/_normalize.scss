@@ -1,5 +1,6 @@
 body {
     background-color: hsl(185, 75%, 39%);
+    padding: 2rem;
 }
 
 .container {
@@ -18,11 +19,16 @@ body {
         .name {
             margin-right: 0.4rem;
         }
+        position: relative;
+        bottom: 3.5rem;
     }
     .location {
         display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
+        bottom: 5rem;
+        right: 0.25rem;
     }
     .stat-div {
         display: flex;
